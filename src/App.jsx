@@ -1,9 +1,10 @@
 import './App.scss';
+import GlavnaKomponenta from './components/GlavnaKomponenta';
 
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
+      <GlavnaKomponenta />
     </div>
   );
 }
