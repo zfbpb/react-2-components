@@ -1,6 +1,6 @@
 const DrugaKomponenta = ({num}) => {
 
-  const isOdd = (mynum) => {
+  const isEven = (mynum) => {
     
     let result = mynum % 2;
     return (result ? 'je neparan.' : 'je paran.');
@@ -9,7 +9,7 @@ const DrugaKomponenta = ({num}) => {
   return (
     <div>
       <h1>Odabrani broj je {num}.</h1>
-      <h1>Broj {num} {isOdd(num)}</h1>
+      <h1>Broj {num} {isEven(num)}</h1>
     </div>
   );
 };
